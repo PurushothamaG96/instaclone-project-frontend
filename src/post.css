@@ -2,7 +2,7 @@ body{
     background: linear-gradient(145deg, rgb(31, 238, 203) 50%, rgb(94, 255, 0));
 }
 .main-container{
-    width: 500px;
+    max-width: 500px;
     min-height: 420px;
     margin: auto;
     border: 1px solid gray;
@@ -24,8 +24,7 @@ body{
 
 }
 .postImage{
-    width: 500px;
-    height: 290px;
+    width: 100%;
 }
 .name-container{
     height: 50px; 

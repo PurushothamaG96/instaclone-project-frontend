@@ -3,7 +3,6 @@ body{
 }
 .main-container{
     max-width: 500px;
-    min-height: 420px;
     margin: auto;
     border: 1px solid gray;
     margin-top: 5px;

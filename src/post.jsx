@@ -5,7 +5,7 @@ const Post=()=>{
     const [data, setData] = useState([])
     
   useEffect(()=>{
-    fetch("https://purushothama.onrender.com/posts")
+    fetch("https://purushothama-instaclone-backend.onrender.com/app/posts")
     .then((res)=>{return res.json()})
     .then((val)=>{
       console.log(val)
